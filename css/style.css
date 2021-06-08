@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .navbar-light .navbar-nav .nav-link {
+      color: #33417c;
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: 600;
+      transition: .15s;
+  }
+  .banner{
+      background-image: url(../images/banner.png);
+      min-height: 80vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      position: relative;
+  }
+  .banner h1 {
+    color: #fff;
+    font-size: 64px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 78px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #5173fd;
+}
+  
+  .icon {
+    position: absolute;
+    font-size: 25px;
+    color: #fff;
+    left: 50%;
+    top: 83%;
+    transform: translatex(-50%);
+    animation: updown 1s ease-in-out infinite;
+    animation-direction: alternate;
+}
+@keyframes updown{
+    0%{
+        top: 83%;
+    }
+    100%{
+        top: 90%;
+    }
+}
+.who-we-are{
+
+}
+.para h3{
+
+text-transform: uppercase;
+
+font-size: 29px;
+
+font-weight: 800;
+
+color: #33417c;
+
+padding: 139px 0 20px 0;
+
+position: relative;
+}
+.para p {
+    color: #bab5b2;
+    font-size: 13px;
+    line-height: 22px;
+    text-align: left;
+    font-weight: 500;
+}
+.para-img{
+  position: relative;
+}
+.para-img img {
+    position: absolute;
+    left: 31%;
+    margin-top: 98px;
+    width: 100%;
+}
+.para h3::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 13%;
+    background-color: #e76128;
+    top: 63%;
+}
+.what-we-do{
+    background-color: fbfbfb;
+    background-image: url(../images/what-we-do-2.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 124px 0;
+}
+.header h3{
+    
+padding: 200px 0 71px;
+    
+color:#33417c;
+    
+text-transform:uppercase;
+    
+font-weight:800;
+    
+font-size: 31px;
+    
+position: relative;
+}
+.header h3::before{
+    content: '';
+    position: absolute;
+    width: 5%;
+    height: 5px;
+    left: 50%;
+    top: 58%;
+    transform: translateX(-50%);
+    background-color: #e76128;
+}
+.what-we-do-content{
+
+display: flex;
+
+}
+.items{padding: 0 10px;position: relative;}
+.items img{
+
+}
+.what-we h5{
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+color: white;
+
+text-transform: uppercase;
+
+font-weight: 600;
+
+font-size: 28px;
+
+text-align: center;
+
+transform: translate(-50%, -50%);
+
+width: 77%;
+}
+.items i{
+
+position: absolute;
+
+color: white;
+
+top: 82%;
+
+left: 50%;
+
+font-size: 31px;
+
+transform: translateX(-50%);
+}
+.our-attorneys{
+  background-image: url(../images/our-attorneys.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.oa-text{
+
+padding: 0px 0px 0 38px;
+}
+.oa-text h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 293px 0 16px;
+    font-size: 35px;
+    position: relative;
+}
+.oa-text h3::before{
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 17%;
+    background-color: #e76128;
+    left: 1%;
+    top: 66%;
+}
+.oa-text p{
+
+color: a3a0cc;
+
+color: #a3a0cc;
+
+margin-bottom: 48px;
+
+line-height: 28px;
+}
+.oa-text a{
+
+color: #e76128;
+
+text-decoration: none;
+
+text-transform: uppercase;
+
+font-weight: 600;
+
+font-size: 18px;
+}
+.oa-img{
+
+/* width: 90%; */
+
+padding: 0px 0 0 65px;
+}
+.oa-img-1{
+
+display: inline-block;
+
+padding: 162px 8px 15px;
+position: relative;
+
+/* width: 100%; */
+}
+.oa-img-2{
+    
+display: inline-block;
+    
+padding: 15px 8px 132px;
+position: relative;
+}
+.text{
+
+}
+.text h3{
+
+position: absolute;
+
+color: #fff;
+
+top: 81%;
+
+left: 8%;
+
+font-size: 22px;
+
+font-weight: 600;
+
+line-height: 35px;
+}
+.text-1{
+
+}
+.text-1 h3{
+    
+position: absolute;
+    
+color: #fff;
+    
+top: 59%;
+    
+left: 8%;
+    
+font-size: 22px;
+    
+font-weight: 600;
+    
+line-height: 35px;
+}
+.h-lang::before{
+    content: '';
+    position: absolute;
+    width: 7%;
+    height: 5px;
+    left: 50%;
+    top: 48%;
+    transform: translateX(-50%);
+    background-color: #e76128;
+}
+.h-lang{
+     position: relative; 
+}
+.h-lang h3{
+    padding: 173px 0 104px;
+    color:#33417c;
+    text-transform:uppercase;
+    font-weight:800;
+    font-size: 32px;
+    position: relative;
+}
+.languag{
+
+padding-bottom: 155px;
+}
+.languag h3 {
+    color: #33417c;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 13px;
+}
+.languag p{color: #bab5b2;font-size: 15px;line-height: 26px;padding-bottom: 10px;font-weight: 500;}
+.languag a{
+    
+color: #e76128;
+    
+text-transform: uppercase;
+    
+font-weight: 700;
+    
+text-decoration: none;
+}
+.contact-part{
+    background-color: #36226f;
+}
+
+.contact h3{
+    padding: 108px 0 59px;
+    color: #fff;
+    text-transform:uppercase;
+    font-weight:700;
+    font-size: 32px;
+    position: relative;
+}
+.contact h3::before{
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 6%;
+    background-color: #e76128;
+    left: 50%;
+    top: 39%;
+    transform: translateX(-50%);
+}
+.form-part{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 42vh;
+}  
+form{
+    text-align: center;
+}
+input{
+    display: block;
+    height: 59px;
+    width: 569px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #564a98;
+    background: transparent;
+    color: white;
+    transition: .1s;
+}
+.butto{
+    
+width: 193px;
+    
+border: none;
+    
+height: 49px;
+    
+background: #e76128;
+    
+color: white;
+    
+font-weight: 600;
+    
+font-size: 16px;
+    
+margin-top: 29px;
+transition: .15s;
+}
+::placeholder{
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+}
+input:focus{
+    border-bottom: 1px solid #ff6320;
+}
+.butto:hover{
+    background: #d36232;
+}
+footer{
+    background-color: #16102b;
+    min-height: 13vh;
+}
+footer p{
+    color: #6c65a0;
+    font-weight: 500;
+    
+}
+.icons{
+
+}
